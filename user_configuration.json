@@ -10,8 +10,22 @@
     "description": "Install yay AUR helper",
     "command": [
       "sudo -u nobody bash -c 'cd /tmp && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm'"
+     ]
+    },
+    {
+    "chroot": true,
+    "description": "Install yay AUR helper",
+    "command": [
+      "sudo -u nobody bash -c 'cd /tmp && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm'"
     ]
-  }
+    },
+    {
+      "chroot": true,
+      "description": "Install AUR packages using yay",
+      "command": [
+        "sudo -u nobody yay -S --noconfirm bsdmainutils ncal brave-browser i3lock-fancy kbdd light rbenv nvm fisher difftastic nvim lazydocker"
+      ]
+    }
   ],
   "disk_config": {
     "btrfs_options": {
