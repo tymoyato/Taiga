@@ -1,7 +1,9 @@
 # Taiga
 Archinstall files
 `curl -H 'Cache-Control: no-cache' -O https://raw.githubusercontent.com/tymoyato/taiga/main/user_configuration.json`
+
 `curl -H 'Cache-Control: no-cache' -O https://raw.githubusercontent.com/tymoyato/taiga/main/user_credentials.json`
+
 `archinstall --config your_config.json --creds user_credentials.json --creds-decryption-key your-password`
 
 # 🧊 Arch Linux Automated Installation Config
