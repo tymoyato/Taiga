@@ -5,27 +5,9 @@
   },
   "bootloader": "Systemd-boot",
   "custom_commands": [
-    {
-    "chroot": true,
-    "description": "Install yay AUR helper",
-    "command": [
-      "sudo -u nobody bash -c 'cd /tmp && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm'"
-     ]
-    },
-    {
-    "chroot": true,
-    "description": "Install yay AUR helper",
-    "command": [
-      "sudo -u nobody bash -c 'cd /tmp && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm'"
-    ]
-    },
-    {
-      "chroot": true,
-      "description": "Install AUR packages using yay",
-      "command": [
-        "sudo -u nobody yay -S --noconfirm bsdmainutils ncal brave-browser i3lock-fancy kbdd light rbenv nvm fisher difftastic nvim lazydocker"
-      ]
-    }
+        "useradd -m builduser && echo 'builduser ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers",
+        "sudo -u builduser bash -c 'cd /tmp && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm'",
+        "sudo -u builduser yay -S --noconfirm bsdmainutils ncal brave-browser i3lock-fancy light rbenv nvm fisher difftastic nvim lazydocker || true"
   ],
   "disk_config": {
     "btrfs_options": {
