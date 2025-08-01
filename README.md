@@ -1,4 +1,12 @@
-# Taiga
+<h1 align="center">
+  <br>
+  <img src="https://archlinux.org/static/logos/archlinux-logo-light-90dpi.png" alt="logo" width="500">
+  <br>
+  Taiga
+  <br>
+  <br>
+</h1>
+
 Archinstall files
 
 `curl -H 'Cache-Control: no-cache' -O https://raw.githubusercontent.com/tymoyato/taiga/main/user_configuration.json`
