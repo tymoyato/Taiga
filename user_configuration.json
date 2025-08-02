@@ -214,6 +214,7 @@
     "lazygit",
     "lxappearance",
     "xorg-xinit",
+    "xorg-server",
     "kitty",
     "openssh",
     "xorg-setxkbmap"
