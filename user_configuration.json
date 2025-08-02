@@ -219,7 +219,9 @@
     "openssh",
     "xorg-setxkbmap",
     "noto-fonts-emoji",
-    "nerd-fonts"
+    "nerd-fonts",
+    "ttf-liberation",
+    "ttf-dejavu"
   ],
   "parallel_downloads": 0,
   "profile_config": {
