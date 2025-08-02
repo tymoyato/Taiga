@@ -217,7 +217,9 @@
     "xorg-server",
     "kitty",
     "openssh",
-    "xorg-setxkbmap"
+    "xorg-setxkbmap",
+    "noto-fonts-emoji",
+    "nerd-fonts"
   ],
   "parallel_downloads": 0,
   "profile_config": {
