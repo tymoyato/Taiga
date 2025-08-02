@@ -212,7 +212,8 @@
     "lxappearance",
     "xorg-xinit",
     "kitty",
-    "openssh"
+    "openssh",
+    "xorg-setxkbmap"
   ],
   "parallel_downloads": 0,
   "profile_config": {
