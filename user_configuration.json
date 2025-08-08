@@ -230,7 +230,8 @@
     "pipewire-jack",
     "nvidia",
     "nvidia-utils",
-    "nvidia-settings"
+    "nvidia-settings",
+    "xorg-xrandr"
   ],
   "parallel_downloads": 0,
   "profile_config": {
