@@ -227,7 +227,10 @@
     "pipewire",
     "pipewire-alsa",
     "pipewire-pulse",
-    "pipewire-jack"
+    "pipewire-jack",
+    "nvidia",
+    "nvidia-utils",
+    "nvidia-settings"
   ],
   "parallel_downloads": 0,
   "profile_config": {
