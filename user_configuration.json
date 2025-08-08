@@ -221,7 +221,8 @@
     "noto-fonts-emoji",
     "nerd-fonts",
     "ttf-liberation",
-    "ttf-dejavu"
+    "ttf-dejavu",
+    "alsa-utils"
   ],
   "parallel_downloads": 0,
   "profile_config": {
