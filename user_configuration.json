@@ -223,7 +223,11 @@
     "ttf-liberation",
     "ttf-dejavu",
     "alsa-utils",
-    "playerctl"
+    "playerctl",
+    "pipewire",
+    "pipewire-alsa",
+    "pipewire-pulse",
+    "pipewire-jack"
   ],
   "parallel_downloads": 0,
   "profile_config": {
