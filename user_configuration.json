@@ -231,7 +231,9 @@
     "nvidia",
     "nvidia-utils",
     "nvidia-settings",
-    "xorg-xrandr"
+    "xorg-xrandr",
+    "rbenv",
+    "ruby-build"
   ],
   "parallel_downloads": 0,
   "profile_config": {
