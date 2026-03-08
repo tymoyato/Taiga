@@ -19,7 +19,7 @@
     "config_type": "default_layout",
     "device_modifications": [
       {
-        "device": "/dev/sdc",
+        "device": "/dev/sda",
         "partitions": [
           {
             "btrfs": [],
