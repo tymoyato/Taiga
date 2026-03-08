@@ -81,9 +81,6 @@
           {
             "btrfs": [],
             "dev_path": null,
-            "flags": [
-              "linux-home"
-            ],
             "fs_type": "ext4",
             "mount_options": [],
             "mountpoint": "/home",
