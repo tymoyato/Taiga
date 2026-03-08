@@ -17,6 +17,97 @@
       "snapshot_config": null
     },
     "config_type": "default_layout",
+    "device_modifications": [
+      {
+        "device": "/dev/sda",
+        "partitions": [
+          {
+            "btrfs": [],
+            "dev_path": null,
+            "flags": [
+              "boot",
+              "esp"
+            ],
+            "fs_type": "fat32",
+            "mount_options": [],
+            "mountpoint": "/boot",
+            "obj_id": "eadc4828-5daf-408f-9f2b-0f758e1d0b51",
+            "size": {
+              "sector_size": {
+                "unit": "B",
+                "value": 512
+              },
+              "unit": "GiB",
+              "value": 1
+            },
+            "start": {
+              "sector_size": {
+                "unit": "B",
+                "value": 512
+              },
+              "unit": "MiB",
+              "value": 1
+            },
+            "status": "create",
+            "type": "primary"
+          },
+          {
+            "btrfs": [],
+            "dev_path": null,
+            "flags": [],
+            "fs_type": "ext4",
+            "mount_options": [],
+            "mountpoint": "/",
+            "obj_id": "2da08f97-1d79-4db6-a5a3-78782214ddda",
+            "size": {
+              "sector_size": {
+                "unit": "B",
+                "value": 512
+              },
+              "unit": "GiB",
+              "value": 50
+            },
+            "start": {
+              "sector_size": {
+                "unit": "B",
+                "value": 512
+              },
+              "unit": "B",
+              "value": 1074790400
+            },
+            "status": "create",
+            "type": "primary"
+          },
+          {
+            "btrfs": [],
+            "dev_path": null,
+            "fs_type": "ext4",
+            "mount_options": [],
+            "mountpoint": "/home",
+            "obj_id": "0cb05fb1-3530-4912-bfa7-3191bd7bc52b",
+            "size": {
+              "sector_size": {
+                "unit": "B",
+                "value": 512
+              },
+              "unit": "B",
+              "value": 945441210368
+            },
+            "start": {
+              "sector_size": {
+                "unit": "B",
+                "value": 512
+              },
+              "unit": "B",
+              "value": 54761881600
+            },
+            "status": "create",
+            "type": "primary"
+          }
+        ],
+        "wipe": true
+      }
+    ]
   },
   "hostname": "archlinux",
   "kernels": [
